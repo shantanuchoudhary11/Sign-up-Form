@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-pane">
+      <div class="brand">
+        <img src="logo.png">
+        <span>Zepta</span>
+      </div>
+      <p class="photo-credit">
+        Photo by <a href="https://unsplash.com/@farnaz________?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Farnaz Kohankhaki</a> on <a href="https://unsplash.com/photos/curved-pink-and-blue-light-trails-hwTZaKokVh8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
+    </div>
+    <div class="right-pane">
+      <section class="section-1">
+        <h2>ERP systems built for AI.</h2>
+        <p>Migrate to an AI native suite. Unleash your full potential.</p>
+      </section>
+      <section class="section-2">
+        <h2>Let's do this!</h2>
+        <form class="signup-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first_name">
+            </div>
+            <div class="field">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last_name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password">
+            </div>
+            <div class="field">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm_password">
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="section-3">
+        <button type="submit">Submit</button>
+        <p>Already have an accont? <a href="google.com" class = "login">Log In</a></p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
