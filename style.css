@@ -95,6 +95,10 @@ input:user-invalid {
   border: 0.125rem solid red;
 }
 
+input:focus {
+  border: 0.125rem solid blue;
+}
+
 .section-3 {
   padding: 2rem;
 }
@@ -120,5 +124,11 @@ input:user-invalid {
   margin: 2rem;
   font-family: monospace, 'Times New Roman', Times, serif;
   color: white;
+}
+
+.error {
+  color: red;
+  font-size: 0.7rem;
+  margin: 0.2rem;
 }
 
